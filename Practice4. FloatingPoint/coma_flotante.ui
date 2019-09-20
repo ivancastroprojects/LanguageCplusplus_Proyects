@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>coma_flotante</class>
+ <widget class="QMainWindow" name="coma_flotante">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>coma_flotante</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>2</y>
+      <width>561</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Numero 1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="numero1"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Numero 2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="numero2"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>CONVERTIR</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Numero 1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="numero1bin"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="numero1hex"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Numero 2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="numero2bin"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="numero2hex"/>
+         </item>
+         <item>
+          <layout class="QFormLayout" name="formLayout_2"/>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>OPERACIONES</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="suma">
+             <property name="text">
+              <string>SUMA</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="prod">
+             <property name="text">
+              <string>PRODUCTO</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="division">
+             <property name="text">
+              <string>DIVISION</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>RESULTADO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Decimal</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="resdec"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>Hexadecimal</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="reshex"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>578</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
