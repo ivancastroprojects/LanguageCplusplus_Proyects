@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagenes/Sinal_de_menos.svg</file>
+    </qresource>
+</RCC>
